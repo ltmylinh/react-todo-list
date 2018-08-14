@@ -1,0 +1,53 @@
+.todolist-container {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+.header {
+  background-color: #f44336;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 2rem;
+  width: 60%;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+input[type="text"] {
+  font-size: 1rem;
+  border: none;
+  padding: 10px;
+  width: 60%;
+}
+.btnSubmit {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  border: none;
+}
+.list-items {
+  width: 60%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+li {
+  position: relative;
+  background-color: #eee;
+  padding: 12px 8px 12px 40px;
+  text-align: left;
+}
+li:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+.list-items li span {
+  position: absolute;
+	right: 2rem;
+	cursor: pointer;
+}
